@@ -1,0 +1,7 @@
+pipeline:
+  test:
+    when:
+      event: push
+    image: centos
+    commands: 
+      - echo "testing"
